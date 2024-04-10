@@ -244,3 +244,60 @@ a.discover-button:hover {
 /*----------Registration--------------*/
 /*----------Footer--------------------*/
 
+footer {
+    padding: 50px 0; 
+    text-align: center; 
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 416px;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-image: url(/images/footer_bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat    ;
+}
+
+.subscribe-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+
+}
+
+.subscribe-input {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+}
+
+.subscribe-input input {
+    border: none;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.subscribe-input button {
+    background-color: #FA7436;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
