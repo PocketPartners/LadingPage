@@ -241,6 +241,48 @@ a.discover-button:hover {
 /*----------Services-------------------*/
 /*----------About the-------------------*/
 /*----------Reviews-------------------*/
+.reviews {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    height: 416px;
+    width: 65%;
+    margin: 0 auto;
+}
+
+.reviews-coments {
+display: block;
+justify-content: center;
+align-items: center;
+}
+
+h22 {
+color: #AA67F2; 
+font-size: x-large;
+}
+
+.carousel {
+width: 500px;
+height: 300px;
+margin: 0 auto;
+}
+
+.testimonial {
+background-color: #fff;
+border: 1px solid #ccc;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+.testimonial p {
+font-size: 16px;
+}
+
+.testimonial p.author {
+font-size: 12px;
+color: #999;
+}
 /*----------Registration--------------*/
 /*----------Footer--------------------*/
 
