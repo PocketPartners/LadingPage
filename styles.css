@@ -508,3 +508,7 @@ a:hover {
     color: #666666;
     transition: all .20s ease;
 }
+
+.social i:hover {
+    color: var(--main-color);
+}
