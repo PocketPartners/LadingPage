@@ -181,6 +181,7 @@ a[href="register.html"]:hover {
     color: #FFFFFF;
     padding: 10px 20px;
     border: none;
+    border-radius: fit-content;
     border-radius: 5px;
     transition: background-color 0.5s, color 0.5s;
     display: inline-block;
@@ -236,6 +237,150 @@ a.discover-button:hover {
     .band .content ul {
         left: 0px; 
     }
+}
+/*----------Component8-------------------*/
+
+.component8{
+    position: absolute; 
+    top: 85%; 
+    text-align: left; 
+    display: flex;
+    align-items: center; 
+}
+
+/*----------Services-------------------*/
+.ftbackground {
+    background-color: #F7F8FC;
+}
+.title-info h1 {
+    margin: 60px auto 0;
+    padding-top: 50px;
+    padding-left: calc(10px + 20%);
+    padding-right: calc(10px + 20%);
+    padding-bottom: 50px;
+    color:#000000;
+    text-align: center;
+}
+.title-info img{
+    position: absolute; 
+    left: 75%;
+    top: 95%; 
+    text-align: right; 
+    display: flex;
+    align-items: center; 
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    padding-bottom: 70px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.feature {
+    padding: 40px;
+    background-color: #ffffff;
+    text-align: left;
+    flex-basis: 30%;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.08);
+    padding-bottom: 75px;
+    border-radius: 0.5rem;
+}
+
+.feature h2 {
+    color: #444;
+    height: 65%;
+}
+
+.component4{
+    display: flex;
+    align-items: left; 
+    position: absolute; 
+    top: 158%;
+    transform: scaleX(-1);
+}
+
+@media only screen and (max-width: 1200px){
+    .title-info img{
+        display: none;
+    }
+    .component4{
+        display: none;
+    }
+    .features{
+        padding-left: calc(5px + 5%);
+        padding-right: calc(5px + 5%);
+    }
+}
+
+.plans {
+    background-color: #ffffff;
+    padding: 50px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.plans h2 {
+    color: #444;
+    padding-bottom: 50px;
+    font-weight: lighter;
+    font-size: x-large;
+}
+
+.plansbox {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.plan {
+    padding: 7px;
+    flex-basis: 30%;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+.plan p{
+    border: 3px solid #fff;
+    padding: 100px 120px 100px 120px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.replace{
+    border: 3px solid #fff;
+    padding: 70px 90px 70px 90px;
+    font-weight: 500;
+    font-size: medium;
+    display: none;
+}
+
+.classic {
+    background-color: #ff840199;
+    color: #000000;
+}
+
+.premium {
+    background-color: #aa67f265;
+    color: #000000;
+}
+
+.business {
+    background-color: #ff840199;
+    color: #000000;
+}
+
+.classic:hover .recla{
+    display: block;
+}
+
+.premium:hover .repre{
+    display: block;
+}
+
+.business:hover .rebu{
+    display: block;
 }
 
 /*----------Services-------------------*/
