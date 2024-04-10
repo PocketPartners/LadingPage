@@ -357,3 +357,9 @@ a:hover {
     color: #666666;
     font-weight: 500;
 }
+
+.social i {
+    font-size: 1.5rem;
+    color: #666666;
+    transition: all .20s ease;
+}
