@@ -301,3 +301,54 @@ footer {
     border-radius: 10px;
     cursor: pointer;
 }
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 20px 0;
+    width: 70%;
+}
+
+.footer-info-social {
+    size: 16px;
+}
+
+
+.footer-acc {
+    display: flex;
+    gap: 25px;
+    text-align: left;
+    text-decoration: none;
+    size: 18px;
+}
+
+.footer-acc a {
+    color: #666666;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: all .20s ease;
+}
+
+.footer-acc a:hover {
+    color: var(--main-color);
+}
+
+.footer-acc ul {
+    list-style: none;
+}
+
+.footer-acc ul li {
+    margin: 10px 0;
+}
+
+.footer-bottom {
+    background-color: #ffffff;
+    border-top: #000000 2px solid;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    width: 70%;
+}
