@@ -680,3 +680,20 @@ a:hover {
 .reviews-slider {
     flex-grow: 1; 
 }
+
+
+.product h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+}
+
+.video-container iframe {
+    max-width: 100%;
+    width: 560px;
+    height: 315px;
+}
